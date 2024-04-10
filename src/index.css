@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,900&family=Cormorant:wght@700&family=Exo+2:wght@100&family=Philosopher:ital,wght@1,700&family=Rajdhani:wght@300;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+      /* Hide scrollbar for Chrome, Safari, and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+  
+  
+      /* Hide scrollbar for IE, Edge, and Firefox */
+      .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+    }
+  }
